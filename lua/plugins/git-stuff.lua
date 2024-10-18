@@ -1,6 +1,10 @@
 return {
   {
     "tpope/vim-fugitive",
+    dependencies = { "tpope/vim-rhubarb" },
+    config = function()
+      vim.keymap.set("n", "<leader>go", ":GBrowse<CR>")
+    end,
   },
   {
     "lewis6991/gitsigns.nvim",
@@ -10,11 +14,4 @@ return {
       vim.keymap.set("n", "<leader>gt", ":Gitsigns toggle_current_line_blame<CR>", {})
     end,
   },
-  {
-  "ruanyl/vim-gh-line",
-  config = function()
-    -- Map to open the current line on GitHub
-    vim.api.nvim_set_keymap('n', '<leader>gh', ':OpenInGHFile<CR>', { noremap = true, silent = true })
-  end
-}
 }
