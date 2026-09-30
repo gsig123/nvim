@@ -1,0 +1,27 @@
+lazy-lock.json
+  s_802dbff16ce8dd::t_e5fc4736001215 2-18,20-56
+lazyvim.json
+  s_802dbff16ce8dd::t_9a10790f6b6b15 3,7,21,23,25
+lua/plugins/git-link.lua
+  s_802dbff16ce8dd::t_16a13dea3e500d 1-21
+lua/plugins/typescript.lua
+  s_802dbff16ce8dd::t_561932971b76f8 10
+lua/plugins/which-key.lua
+  s_802dbff16ce8dd::t_ccbd822141f353 1-14
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "809b781b1ddaa32a2a0a29afd0d47183aaf298df",
+  "prompts": {},
+  "sessions": {
+    "s_802dbff16ce8dd": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "d4d02139-e6e8-4d2c-8d13-b183f8ffaa33",
+        "model": "unknown"
+      },
+      "human_author": "Bjartur Sigurbergsson <bis@famly.co>"
+    }
+  }
+}
